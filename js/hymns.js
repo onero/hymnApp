@@ -1,4 +1,4 @@
-var psalms = [
+var hymns = [
   {
     number: "0",
     name: "Du har fundet den hemmelige Psalme!",
