@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>psalmApp</title>
+  </head>
+  <body>
+    <h1>Vælg et salmenummer</h1>
+      <input id="whichPsalm" onclick="if (this.value.length > 0) this.value='';"></input>
+      <button onclick="getPsalm()">Go!</button>
+        <p id="psalmText"></p>
+  </body>
+  <script src="js/psalmApp.js" charset="utf-8"></script>
+  <script src="js/psalms.js" charset="utf-8"></script>
+</html>
